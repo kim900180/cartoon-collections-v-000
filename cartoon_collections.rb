@@ -25,15 +25,17 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   i = 0
+  boolean = nil
   while i < array.length
     if array[i].length < 4
-      false
+      boolean = false
       i += 1
     elsif array[i].length > 4
-      true
+      boolean = true
       i += 1
     end
   end
+  return boolean
 end
 
 def find_the_cheese# code an argument here
