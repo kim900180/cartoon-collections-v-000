@@ -13,7 +13,7 @@ def summon_captain_planet(array)# code an argument here
   new_array = []
   while i < array.length
     split_array = array[i].split
-    split_array[0][0].uppercase
+    split_array[0][0] = split_array[0][0].upcase
     split_array << "!"
     split_array.join
     new_array << split_array
