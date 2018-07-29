@@ -38,7 +38,7 @@ def find_the_cheese(array)# code an argument here
   while i < array.length
     cheese_types.each do |item|
       if array[i] == item
-        return item
+        return array[i]
       else
         return nil
       end
