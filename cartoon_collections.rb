@@ -39,8 +39,6 @@ def find_the_cheese(array)# code an argument here
     cheese_types.each do |item|
       if array[i] == item
         return array[i]
-      else
-        return nil
       end
     end
     i += 1
