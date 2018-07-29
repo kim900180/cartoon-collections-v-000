@@ -27,10 +27,11 @@ def long_planeteer_calls(array)# code an argument here
   i = 0
   while i < array.length
     if array[i].length < 4
+      false
       i += 1
-      return false
     elsif array[i].length > 4
-      return true
+      true
+      i += 1
     end
   end
 end
